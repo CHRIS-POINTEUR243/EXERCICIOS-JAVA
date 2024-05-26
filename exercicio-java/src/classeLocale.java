@@ -1,7 +1,7 @@
 
 import java.util.Locale;
 
-public class Main {
+public class classeLocale {
     public static void main(String[] args) {
         // Criar uma instância de Locale para representar o idioma inglês nos Estados Unidos
         Locale usLocale = new Locale("en", "US");
@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Locale dos Estados Unidos:");
         System.out.println("País: " + usLocale.getCountry());
         System.out.println("Idioma: " + usLocale.getLanguage());
-        System.out.println("Display Name: " + usLocale.getDisplayName());
+        System.out.println("Display Name: " + usLocale.getDisplayName());//
         
         System.out.println("\nLocale da França:");
         System.out.println("País: " + frLocale.getCountry());
