@@ -18,7 +18,7 @@ public class debugJava {
 
     public static void metodo_c() {
         System.out.println("Entrei no metodo c");
-        // Thread.dumpStack();
+         Thread.dumpStack();
         System.out.println("Sai no metodo c");
     }
     public static void main(String[] args) {
